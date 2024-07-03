@@ -20,7 +20,7 @@ function NewList(props) {
         <ul className="list-group">
           {props.todo.map((item, index) => {
             return (
-              <div className=" border rounded-3 shadow-sm d-flex justify-content-between align-items-center m-2 bg-secondary-subtle">
+              <div className="border rounded-3 shadow-sm d-flex justify-content-between align-items-center m-2 bg-secondary-subtle">
                 <li
                   key={index}
                   className={`list-unstyled cursor-text ps-3
